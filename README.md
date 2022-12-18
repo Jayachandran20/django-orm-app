@@ -40,6 +40,11 @@ class BankingappAdmin(admin.ModelAdmin):
 ## OUTPUT
 
 Include the screenshot of your admin page.
+### client side
+![Alt text](./images/Screenshot (4).png)
+### server side
+![Alt text](./images/Screenshot (4).png)
+
 
 
 ## RESULT
