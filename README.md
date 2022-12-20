@@ -10,12 +10,15 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
+create a new django project using "django_admin startproject",get into the project terminal and use "python3 manage.py startapp" command
 
 ### STEP 2:
+Define a model for the bankingapp in the models.py and allow host access and add the app
+name under installed apps in settings.py
 
 ### STEP 3:
-
-Write your own steps
+Register the models with the Django admin side.In admin.py under app folder,register the
+models with Django admin site
 
 ## PROGRAM
 '''
@@ -38,13 +41,11 @@ class BankingappAdmin(admin.ModelAdmin):
 
 
 ## OUTPUT
+![Alt text](./images/screenshot(4).png)
 
-Include the screenshot of your admin page.
-### client side
-![Alt text](./images/Screenshot (4).png)
-### server side
-![Alt text](./images/Screenshot (4).png)
+
 
 
 
 ## RESULT
+The program is executed sucessfully
