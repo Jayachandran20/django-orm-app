@@ -24,7 +24,6 @@ models with Django admin site
 '''
 from django.db import models
 from django.contrib import admin
-# create your model here.
 
 class Bankapp(models.Model):
     accountnumber = models.CharField(max_length=10, help_text="Your Reference Number")
@@ -41,10 +40,12 @@ class BankingappAdmin(admin.ModelAdmin):
 
 
 ## OUTPUT
-![Alt text](./images/screenshot(4).png)
 
 
 
+
+
+![Screenshot (4)](https://user-images.githubusercontent.com/118447015/208705511-16b5ff27-08ac-4817-b4f1-f57f77214882.png)
 
 
 ## RESULT
