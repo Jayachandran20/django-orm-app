@@ -4,9 +4,9 @@
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
 ## Entity Relationship Diagram
+![Screenshot (20)](https://user-images.githubusercontent.com/118447015/209692606-19bfc1b1-1614-433c-967b-dfa2053df371.png)
 
 
-![Screenshot (5)](https://user-images.githubusercontent.com/118447015/208717903-279d8aa5-fc12-48b0-a83e-3d782948bf4d.png)
 
 ## DESIGN STEPS
 
@@ -22,7 +22,7 @@ Register the models with the Django admin side.In admin.py under app folder,regi
 models with Django admin site
 
 ## PROGRAM
-'''
+```
 from django.db import models
 from django.contrib import admin
 
@@ -34,7 +34,7 @@ class Bankapp(models.Model):
 
 class BankingappAdmin(admin.ModelAdmin):
     list_display = ('accountnumber','name','mobilenumber','email')
-'''
+```
 
 
 
@@ -45,8 +45,9 @@ class BankingappAdmin(admin.ModelAdmin):
 
 
 
+![Screenshot (15)](https://user-images.githubusercontent.com/118447015/209692669-30537f4a-1e2f-42dd-99d9-6e9fc5f2ddc7.png)
 
-![Screenshot (4)](https://user-images.githubusercontent.com/118447015/208705511-16b5ff27-08ac-4817-b4f1-f57f77214882.png)
+
 
 
 ## RESULT
